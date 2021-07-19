@@ -6,7 +6,7 @@
 #import "MGLUserLocationHeadingArrowLayer.h"
 #import "MGLUserLocationHeadingBeamLayer.h"
 
-const CGFloat MGLUserLocationAnnotationDotSize = 22.0;
+const CGFloat MGLUserLocationAnnotationDotSize = 18.0;
 const CGFloat MGLUserLocationAnnotationHaloSize = 115.0;
 
 const CGFloat MGLUserLocationAnnotationPuckSize = 45.0;

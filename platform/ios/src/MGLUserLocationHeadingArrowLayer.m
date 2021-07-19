@@ -3,7 +3,7 @@
 #import "MGLFaux3DUserLocationAnnotationView.h"
 #import "MGLGeometry.h"
 
-const CGFloat MGLUserLocationHeadingArrowSize = 8;
+const CGFloat MGLUserLocationHeadingArrowSize = 12;
 
 @implementation MGLUserLocationHeadingArrowLayer
 
@@ -42,8 +42,8 @@ const CGFloat MGLUserLocationHeadingArrowSize = 8;
     CGFloat size = MGLUserLocationHeadingArrowSize;
 
     CGPoint top =       CGPointMake(center,         0);
-    CGPoint left =      CGPointMake(center - size,  size);
-    CGPoint right =     CGPointMake(center + size,  size);
+    CGPoint left =      CGPointMake(center - size + 4,  size);
+    CGPoint right =     CGPointMake(center + size - 4,  size);
     CGPoint middle =    CGPointMake(center,         size / M_PI);
 
     UIBezierPath *bezierPath = [UIBezierPath bezierPath];
